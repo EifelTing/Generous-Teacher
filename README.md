@@ -1,2 +1,2 @@
-# Generous-Teacher
-This repo is an implementation of PyTorch version for paper: Generous Teacher: Good at distilling Knowledge for Student Learning
+# Image and Vision Computing 2024
+Generous Teacher: Good at distilling Knowledge for Student Learning
