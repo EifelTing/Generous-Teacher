@@ -23,7 +23,4 @@ python train.py
 
 ## Acknowledgements
 
-<!--ts-->
-* [SimSwap](https://github.com/neuralchen/SimSwap)
-<!--te-->
 
