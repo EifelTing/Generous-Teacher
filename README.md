@@ -18,7 +18,7 @@ Knowledge distillation is a technique that aims to transfer valuable knowledge f
 ## Training
 
 ```
-python train.py
+python train_generous_teacher.py
 ```
 
 ## Acknowledgements
