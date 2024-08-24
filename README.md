@@ -18,15 +18,15 @@ Knowledge distillation is a technique that aims to transfer valuable knowledge f
 - ...
 
 ## Training
-
+### Training of the standard teacher
 ```
 python train_normal.py --save_path experiments/CIFAR10/baseline/resnet18 
 ```
-
+### Training of the generous teacher
 ```
 python train_generous.py --save_path experiments/CIFAR10/kd_generous_resnet18/generous_resnet18 --Tn 1.0 --alpha 1.0
 ```
-
+### Training of the student
 ```
 python train_kd.py --save_path experiments/CIFAR10/kd_generous_resnet18/cnn
 ```
