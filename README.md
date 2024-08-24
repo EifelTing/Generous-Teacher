@@ -1,6 +1,6 @@
 # Generous Teacher: Good at distilling Knowledge for Student Learning (IMAVIS 2024)
 
-This is the official code for "Generous Teacher: Good at distilling knowledge for student learning", accepted by Image and Vision Computing 2024.
+This is the official code for "Generous teacher: Good at distilling knowledge for student learning", accepted by Image and Vision Computing 2024.
 
 Paper link: [Click Here](https://doi.org/10.1016/j.imavis.2024.105199)
 
