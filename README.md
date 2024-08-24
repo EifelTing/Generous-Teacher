@@ -11,11 +11,11 @@ Knowledge distillation is a technique that aims to transfer valuable knowledge f
 
 ## Environment
 
-torch==1.4.0
-torchvision==0.5.0
-numpy==1.17.2
-tqdm==4.36.1
-scipy==1.3.1
+-torch==1.4.0
+-torchvision==0.5.0
+-numpy==1.17.2
+-tqdm==4.36.1
+-scipy==1.3.1
 - ...
 
 ## Training
