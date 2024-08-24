@@ -31,6 +31,22 @@ python train_generous.py --save_path experiments/CIFAR10/kd_generous_resnet18/ge
 python train_kd.py --save_path experiments/CIFAR10/kd_generous_resnet18/cnn
 ```
 
-## Acknowledgements
+## Citation
+~~~
+@article{
+ding2024generous,
+title={Generous teacher: Good at distilling knowledge for student learning},
+author={Ding, Yifeng and Yang, Gaoming and Yin, Shuting and Zhang, Ji and Fang, Xianjin and Yang, Wencheng},
+journal={Image and Vision Computing},
+pages={105199},
+year={2024},
+publisher={Elsevier}
+}
+~~~
+
+## Acknowledgement
+* [Teacher-free KD](https://github.com/yuanli2333/Teacher-free-Knowledge-Distillation)
+* [DAFL](https://github.com/huawei-noah/Data-Efficient-Model-Compression/tree/master/DAFL) 
+* [DeepInversion](https://github.com/NVlabs/DeepInversion)
 
 
