@@ -11,14 +11,25 @@ Knowledge distillation is a technique that aims to transfer valuable knowledge f
 
 ## Environment
 
-- python3.6+
-- pytorch1.5+
+torch==1.4.0
+torchvision==0.5.0
+numpy==1.17.2
+tqdm==4.36.1
+scipy==1.3.1
 - ...
 
 ## Training
 
 ```
-python train_generous_teacher.py
+python train_normal.py --save_path experiments/CIFAR10/baseline/resnet18 
+```
+
+```
+python train_generous.py --save_path experiments/CIFAR10/kd_generous_resnet18/generous_resnet18 --Tn 1.0 --alpha 1.0
+```
+
+```
+python train_kd.py --save_path experiments/CIFAR10/kd_generous_resnet18/cnn
 ```
 
 ## Acknowledgements
